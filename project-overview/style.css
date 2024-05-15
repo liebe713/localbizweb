@@ -1,0 +1,271 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container1 {
+    width: 100%;
+    padding: 2rem;
+    color: yellow;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+header {
+    background-color:#443d3d;
+    color: #fff;
+  
+
+
+}
+
+header h1 {
+    margin-left: -2px; 
+}
+
+nav {
+    margin-right: 20px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-bottom: 40px;
+}
+
+.team-member img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#project-description{
+    text-align: center;
+}
+
+#future-enhancements{
+    text-align: center;
+}
+
+footer {
+    background-color: #443d3d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom */
+}
+ .title {
+    color: yellow;
+}                                                                                                                                                                           
+.para {
+    color: white;
+}
+.width {
+    width: 100%;
+    padding: 20px;
+}
+.cons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    border: 2px solid yellow;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.tet{
+    color: yellow;
+}
+
+.tat{
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tit {
+    color: white;
+}
+.alt {
+    color: white;
+}
+.box1 {
+    border: 2px solid yellow;
+    width:250px ;
+    height:110px ;
+    border-radius: 10px;
+}
+.const {
+    padding: 1rem;
+}
+.gap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.boxs {
+    border: 2px solid yellow;
+    width: 540px;
+    height: 80px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.box3 {
+    border: 2px solid yellow;
+    width: 800px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+.prototype-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.prototype-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid yellow;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prototype-image {
+    max-width: 100%; 
+    max-height: 100%; 
+    display: none; 
+    border-radius: 10px; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.prototype-image:hover {
+    transform: scale(1.1);
+}
+
+.prototype-image.active {
+    display: block; 
+}
+
+#back-button,
+#next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+    color: white;
+}
+
+#next-button:hover{
+    color: yellow;
+}
+
+#back-button:hover{
+    color: yellow;
+}
+
+#back-button {
+    left: 20px;
+}
+
+#next-button {
+    right: 20px;
+}
+
+.cons1 {
+    color: yellow;
+}
+
+#technologies {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out; 
+}
+.grid-item img:hover{
+    transform: scale(1.1);
+}
+
+.click-here {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.click-here p {
+    margin-right: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.click-here svg {
+    fill: #333;
+    width: 20px;
+    height: 20px;
+}

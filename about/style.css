@@ -1,0 +1,157 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #333;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container1 {
+    width: 100%;
+    padding: 2rem;
+    color: yellow;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    
+}
+
+header {
+    background-color:#443d3d;
+    color: #fff;
+
+
+}
+
+header h1 {
+    margin-left: -2px; 
+}
+
+nav {
+    margin-right: 20px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 10px; 
+    width: 300px;
+    padding: 10px;
+    border:2px solid yellow;
+    border-radius: 10%;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.para2{
+    color: white;
+    text-align: center;
+}
+
+.para3{
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: italic;
+}
+
+.team-member img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px; 
+    align-self: center; 
+}
+
+#highlights{
+    text-align: center;
+}
+
+#home{
+    text-align: center;
+}
+
+footer {
+    background-color:#443d3d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom */
+}
+.para {
+
+    color : #ffff;
+}
+.title {
+    color: yellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+    border: 2px solid yellow;
+    width:90%;
+    height:20% ;  
+    padding: 1rem;  
+    border-radius: 10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
